@@ -46,7 +46,7 @@ namespace TestProject2
             matrix[0, 0] = 1.1;
             matrix[1, 1] = 2.2;
             matrix[2, 2] = 3.3;
-            matrix[1, 1] = 2.2; // Не генерируется событие, значение осталось неизменным
+            matrix[1, 1] = 2.2; 
 
             Assert.AreEqual(2, eventCount);
         }
