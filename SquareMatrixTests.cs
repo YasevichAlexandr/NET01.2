@@ -43,8 +43,8 @@ namespace TestProject2
 
             matrix[0, 0] = 1;
             matrix[1, 1] = 2;
-            matrix[0, 1] = 3; // Генерируется событие
-            matrix[0, 1] = 3; // Не генерируется событие, значение осталось неизменным
+            matrix[0, 1] = 3; 
+            matrix[0, 1] = 3; 
 
             Assert.AreEqual(1, eventCount);
         }
